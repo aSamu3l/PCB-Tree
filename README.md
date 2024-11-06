@@ -1,13 +1,14 @@
-# PCB-Tree
+# PCB-Tree: An ESP32-Powered Christmas Tree on PCB
 
-A few days ago I thought about making something nice for Christmas and since I really like learning new things I thought about making a little Christmas tree on a PCB and making a dedicated firmware, via ESP32, that turns on the LEDs in various modes.
+This project began as an idea to create something festive and innovative for the holiday season. With a passion for learning and experimenting, I designed a miniature Christmas tree on a printed circuit board (PCB) and developed custom firmware using an ESP32 microcontroller to control LEDs in a variety of lighting patterns.
 
 ### ESP32 Firmware
-I thought of making a basic firmware with a basic number of effects and with the button to change between one effect and another in addition to the automatic change every 60 seconds.
+The firmware for the PCB-Tree is designed to provide a selection of light effects that can be cycled manually with a button or will automatically change every 60 seconds. A dedicated button at the base allows for easy effect switching, giving the user control over the display.
 
-In the base in addition to putting the button to change the effects I thought of putting a button to turn the ESP on and off and a USB-C connection directly on the box to then attach a cable from the connection of the box to the ESP32.
+The base also includes a power button to turn the ESP32 on and off, along with a convenient USB-C port for connecting the box to the ESP32. This setup simplifies power supply and programming access, allowing for straightforward integration and modification.
 
-The idea of ​​making this project public is because I would like anyone who wanted to improve this project by modifying the firmware, the PCB or the support base to be able to do so.
+### Project Goals
+This project is open-source, with the goal of encouraging collaboration and improvement. I invite anyone interested to contribute by enhancing the firmware, redesigning the PCB layout, or modifying the base structure to take the PCB-Tree to new levels.
 
 ### Prewiev of PCB
 <img src="https://github.com/user-attachments/assets/fef6218e-a17a-42a3-8d54-9e3bb8eaba6b" width="50%">
